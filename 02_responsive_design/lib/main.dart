@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'ui/home/screen.dart';
+import 'ui/tabs.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.light(),
       darkTheme: ThemeData.dark(),
       themeMode: ThemeMode.system,
-      home: HomeScreen(),
+      home: TabHome(),
     );
   }
 }
