@@ -56,7 +56,7 @@ class _TabHomeState extends State<TabHome> {
             child: Row(
               children: [
                 NavigationRail(
-                  labelType: NavigationRailLabelType.all,
+                  labelType: NavigationRailLabelType.all   ,
                   selectedIndex: _currentIndex,
                   onDestinationSelected: _onTap,
                   destinations: [
