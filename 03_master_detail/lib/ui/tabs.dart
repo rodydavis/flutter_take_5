@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:my_project/ui/about/screen.dart';
-import 'package:my_project/ui/breakpoints.dart';
-import 'package:my_project/ui/settings/screen.dart';
 
+import 'about/screen.dart';
 import 'common/index.dart';
 import 'home/screen.dart';
+import 'settings/screen.dart';
 
 class TabHome extends StatefulWidget {
   @override
