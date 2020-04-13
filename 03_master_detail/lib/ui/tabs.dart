@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'about/screen.dart';
 import 'common/index.dart';
+import 'contacts/screen.dart';
 import 'home/screen.dart';
 import 'settings/screen.dart';
 
@@ -27,6 +28,11 @@ class _TabHomeState extends State<TabHome> {
             title: 'About',
             iconData: Icons.info,
             body: AboutScreen(),
+          ),
+          TabItem(
+            title: 'Contacts',
+            iconData: Icons.contacts,
+            body: ContactsScreen(),
           ),
           TabItem(
             title: 'Settings',
