@@ -6,7 +6,7 @@ class SettingsScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
-        title: Text('Settings Screen'),
+        title: Text('Settings'),
       ),
       body: Container(),
     );
