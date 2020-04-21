@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:my_project/ui/common/index.dart';
+
+import '../common/index.dart';
 
 class ContactsScreen extends StatefulWidget {
   @override
@@ -18,7 +19,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
           children: <Widget>[
             Container(
               width: kListViewWidth,
-              child: buildListView((val) {
+              child: buildListView(dimens, (val) {
                 _selection.value = val;
               }),
             ),
@@ -39,7 +40,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
           ],
         );
       }
-      return buildListView((val) {
+      return buildListView(dimens, (val) {
         Navigator.of(context).push(
           MaterialPageRoute(
             builder: (_) => ContactDetails(contact: val),
@@ -49,11 +50,36 @@ class _ContactsScreenState extends State<ContactsScreen> {
     });
   }
 
-  Widget buildListView(ValueChanged<Contact> onSelect) {
+  Widget buildListView(BoxConstraints dimens, ValueChanged<Contact> onSelect) {
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
         title: Text('Contacts'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.filter_list),
+            onPressed: () {
+              if (dimens.maxWidth >= kTabletBreakpoint) {
+                showDialog(
+                  context: context,
+                  builder: (context) => Material(
+                    color: Colors.transparent,
+                    child: AdaptiveDialog(
+                      child: ContactListFilterOptions(),
+                    ),
+                  ),
+                );
+                return;
+              }
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  fullscreenDialog: true,
+                  builder: (_) => ContactListFilterOptions(),
+                ),
+              );
+            },
+          ),
+        ],
       ),
       body: ListView.separated(
         separatorBuilder: (context, index) => Divider(height: 0),
@@ -122,4 +148,13 @@ class Contact {
   final String email;
 
   Contact(this.name, this.email);
+}
+
+class ContactListFilterOptions extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(),
+    );
+  }
 }
