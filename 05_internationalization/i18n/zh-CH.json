@@ -1,0 +1,16 @@
+{
+    "title": "颤动的岩石",
+    "greetTo": "您好{name}",
+    "home": {
+        "title": "家"
+    },
+    "settings": {
+        "title": "设定值"
+    },
+    "contacts": {
+        "title": "联络人"
+    },
+    "about": {
+        "title": "关于"
+    }
+}
