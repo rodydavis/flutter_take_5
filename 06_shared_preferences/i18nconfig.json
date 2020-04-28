@@ -1,0 +1,23 @@
+{
+    "defaultLocale": "en-US",
+    "locales": [
+        "en-US",
+        "es-US",
+        "ja-JP",
+        "fr-FR",
+        "zh-CH",
+        "ru-RU"
+    ],
+    "localePath": "i18n",
+    "generatedPath": "lib/generated",
+    "ltr": [
+        "en-US",
+        "es-US",
+        "ja-JP",
+        "fr-FR",
+        "zh-CH",
+        "ru-RU"
+    ],
+    "rtl": [],
+    "googleTranslateApiKey": ""
+}

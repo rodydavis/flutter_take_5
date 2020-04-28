@@ -1,0 +1,16 @@
+{
+    "title": "Flutter Rocks",
+    "greetTo": "Hello {name}",
+    "home": {
+        "title": "Home"
+    },
+    "settings": {
+        "title": "Settings"
+    },
+    "contacts": {
+        "title": "Contacts"
+    },
+    "about": {
+        "title": "About"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title": "Aleteo de rocas",
+    "greetTo": "Hola {name}",
+    "home": {
+        "title": "Casa"
+    },
+    "settings": {
+        "title": "Configuraciones"
+    },
+    "contacts": {
+        "title": "Contactos"
+    },
+    "about": {
+        "title": "Acerca de"
+    }
+}

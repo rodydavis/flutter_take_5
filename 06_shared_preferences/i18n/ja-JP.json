@@ -1,0 +1,16 @@
+{
+    "title": "フラッターロックス",
+    "greetTo": "{name}様",
+    "home": {
+        "title": "ホーム"
+    },
+    "settings": {
+        "title": "設定"
+    },
+    "contacts": {
+        "title": "連絡先"
+    },
+    "about": {
+        "title": "約"
+    }
+}
