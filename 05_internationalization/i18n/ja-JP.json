@@ -8,7 +8,11 @@
         "title": "設定"
     },
     "contacts": {
-        "title": "連絡先"
+        "title": "連絡先",
+        "details": "細部",
+        "name": "名前",
+        "email": "Eメール",
+        "empty": "連絡先が選択されていません"
     },
     "about": {
         "title": "約"

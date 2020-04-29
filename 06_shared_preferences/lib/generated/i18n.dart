@@ -40,8 +40,18 @@ class I18n implements WidgetsLocalizations {
   String get homeTitle => "Home";
   /// "Settings"
   String get settingsTitle => "Settings";
+  /// "Dark Mode"
+  String get settingsDarkMode => "Dark Mode";
   /// "Contacts"
   String get contactsTitle => "Contacts";
+  /// "Details"
+  String get contactsDetails => "Details";
+  /// "Name"
+  String get contactsName => "Name";
+  /// "Email"
+  String get contactsEmail => "Email";
+  /// "No Contact Selected"
+  String get contactsEmpty => "No Contact Selected";
   /// "About"
   String get aboutTitle => "About";
 }
@@ -68,9 +78,24 @@ class _I18n_es_US extends I18n {
   /// "Configuraciones"
   @override
   String get settingsTitle => "Configuraciones";
+  /// "Modo oscuro"
+  @override
+  String get settingsDarkMode => "Modo oscuro";
   /// "Contactos"
   @override
   String get contactsTitle => "Contactos";
+  /// "Detalles"
+  @override
+  String get contactsDetails => "Detalles";
+  /// "Nombre"
+  @override
+  String get contactsName => "Nombre";
+  /// "Correo electrónico"
+  @override
+  String get contactsEmail => "Correo electrónico";
+  /// "Ningún contacto seleccionado"
+  @override
+  String get contactsEmpty => "Ningún contacto seleccionado";
   /// "Acerca de"
   @override
   String get aboutTitle => "Acerca de";
@@ -94,9 +119,24 @@ class _I18n_ja_JP extends I18n {
   /// "設定"
   @override
   String get settingsTitle => "設定";
+  /// "ダークモード"
+  @override
+  String get settingsDarkMode => "ダークモード";
   /// "連絡先"
   @override
   String get contactsTitle => "連絡先";
+  /// "細部"
+  @override
+  String get contactsDetails => "細部";
+  /// "名前"
+  @override
+  String get contactsName => "名前";
+  /// "Eメール"
+  @override
+  String get contactsEmail => "Eメール";
+  /// "連絡先が選択されていません"
+  @override
+  String get contactsEmpty => "連絡先が選択されていません";
   /// "約"
   @override
   String get aboutTitle => "約";
@@ -120,9 +160,24 @@ class _I18n_fr_FR extends I18n {
   /// "Réglages"
   @override
   String get settingsTitle => "Réglages";
+  /// "Mode sombre"
+  @override
+  String get settingsDarkMode => "Mode sombre";
   /// "Contacts"
   @override
   String get contactsTitle => "Contacts";
+  /// "Détails"
+  @override
+  String get contactsDetails => "Détails";
+  /// "Nom"
+  @override
+  String get contactsName => "Nom";
+  /// "Email"
+  @override
+  String get contactsEmail => "Email";
+  /// "Aucun contact sélectionné"
+  @override
+  String get contactsEmpty => "Aucun contact sélectionné";
   /// "À propos de"
   @override
   String get aboutTitle => "À propos de";
@@ -146,9 +201,24 @@ class _I18n_zh_CH extends I18n {
   /// "设定值"
   @override
   String get settingsTitle => "设定值";
+  /// "暗模式"
+  @override
+  String get settingsDarkMode => "暗模式";
   /// "联络人"
   @override
   String get contactsTitle => "联络人";
+  /// "细节"
+  @override
+  String get contactsDetails => "细节";
+  /// "名称"
+  @override
+  String get contactsName => "名称";
+  /// "电子邮件"
+  @override
+  String get contactsEmail => "电子邮件";
+  /// "未选择联系人"
+  @override
+  String get contactsEmpty => "未选择联系人";
   /// "关于"
   @override
   String get aboutTitle => "关于";
@@ -172,9 +242,24 @@ class _I18n_ru_RU extends I18n {
   /// "настройки"
   @override
   String get settingsTitle => "настройки";
+  /// "Темный режим"
+  @override
+  String get settingsDarkMode => "Темный режим";
   /// "контакты"
   @override
   String get contactsTitle => "контакты";
+  /// "подробности"
+  @override
+  String get contactsDetails => "подробности";
+  /// "имя"
+  @override
+  String get contactsName => "имя";
+  /// "Электронное письмо"
+  @override
+  String get contactsEmail => "Электронное письмо";
+  /// "Контакт не выбран"
+  @override
+  String get contactsEmpty => "Контакт не выбран";
   /// "Около"
   @override
   String get aboutTitle => "Около";

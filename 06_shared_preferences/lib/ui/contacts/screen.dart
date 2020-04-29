@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_project/generated/i18n.dart';
 
 import '../common/index.dart';
 
@@ -31,7 +32,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
                 if (contact == null) {
                   return Scaffold(
                     appBar: AppBar(),
-                    body: Center(child: Text('No Contact Selected')),
+                    body: Center(child: Text(I18n.of(context).contactsEmpty)),
                   );
                 }
                 return ContactDetails(contact: contact);
@@ -54,7 +55,7 @@ class _ContactsScreenState extends State<ContactsScreen> {
     return Scaffold(
       appBar: AppBar(
         centerTitle: false,
-        title: Text('Contacts'),
+        title: Text(I18n.of(context).contactsTitle),
         actions: [
           IconButton(
             icon: Icon(Icons.filter_list),
@@ -110,19 +111,19 @@ class ContactDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Details'),
+        title: Text(I18n.of(context).contactsDetails),
         centerTitle: false,
       ),
       body: ListView(
         children: [
           ListTile(
             leading: Icon(Icons.person_outline),
-            title: Text('Name'),
+            title: Text(I18n.of(context).contactsName),
             subtitle: Text(contact.name),
           ),
           ListTile(
             leading: Icon(Icons.email),
-            title: Text('Email'),
+            title: Text(I18n.of(context).contactsEmail),
             subtitle: Text(contact.email),
           ),
         ],

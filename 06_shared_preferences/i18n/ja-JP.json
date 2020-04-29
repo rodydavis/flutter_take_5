@@ -5,10 +5,15 @@
         "title": "ホーム"
     },
     "settings": {
-        "title": "設定"
+        "title": "設定",
+        "darkMode": "ダークモード"
     },
     "contacts": {
-        "title": "連絡先"
+        "title": "連絡先",
+        "details": "細部",
+        "name": "名前",
+        "email": "Eメール",
+        "empty": "連絡先が選択されていません"
     },
     "about": {
         "title": "約"

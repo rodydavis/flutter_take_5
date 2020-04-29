@@ -8,7 +8,11 @@
         "title": "Réglages"
     },
     "contacts": {
-        "title": "Contacts"
+        "title": "Contacts",
+        "details": "Détails",
+        "name": "Nom",
+        "email": "Email",
+        "empty": "Aucun contact sélectionné"
     },
     "about": {
         "title": "À propos de"

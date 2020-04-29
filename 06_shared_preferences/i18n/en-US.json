@@ -5,10 +5,15 @@
         "title": "Home"
     },
     "settings": {
-        "title": "Settings"
+        "title": "Settings",
+        "darkMode": "Dark Mode"
     },
     "contacts": {
-        "title": "Contacts"
+        "title": "Contacts",
+        "details": "Details",
+        "name": "Name",
+        "email": "Email",
+        "empty": "No Contact Selected"
     },
     "about": {
         "title": "About"

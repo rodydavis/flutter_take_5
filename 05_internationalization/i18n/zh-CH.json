@@ -8,7 +8,11 @@
         "title": "设定值"
     },
     "contacts": {
-        "title": "联络人"
+        "title": "联络人",
+        "details": "细节",
+        "name": "名称",
+        "email": "电子邮件",
+        "empty": "未选择联系人"
     },
     "about": {
         "title": "关于"
